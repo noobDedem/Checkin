@@ -100,6 +100,7 @@ public class ListCheckinActivity extends AppCompatActivity {
                     conn.disconnect();
                 }
 
+                // Emptying the arraylist for initialization
                 if (!arrayList.isEmpty()) {
                     arrayList.clear();
                 }
